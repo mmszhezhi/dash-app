@@ -2,11 +2,7 @@
 
 ## 快速开始
 
-### 本地运行
-```bash
-workon crypt
-pip install -r requirements.txt
-python app.py
+
 
 
 # 开发模式
