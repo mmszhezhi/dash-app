@@ -11,7 +11,3 @@ docker-compose up dev
 # 生产模式
 docker-compose up -d prod
 
-
-git add .
-git commit -m "message"
-git push
