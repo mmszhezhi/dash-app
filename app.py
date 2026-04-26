@@ -498,7 +498,7 @@ app.layout = html.Div(
                 'backgroundColor': THEMES['GitHub Dark']['card_bg'],
             },
             children=[
-                html.H1('🎨 fuck深色主题切换器xxxx', style={'color': THEMES['GitHub Dark']['font_color']}),
+                html.H1('🎨 fuck深色主sss题切换器xxxx', style={'color': THEMES['GitHub Dark']['font_color']}),
                 html.P(f'共 {len(THEMES)} 个暗色系主题，点击下方按钮切换',
                        style={'marginBottom': '15px', 'color': THEMES['GitHub Dark']['font_color'],
                               'fontSize': '14px'}),
