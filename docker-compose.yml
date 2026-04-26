@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  # 开发模式（热重载）
+  dev:
+    build: .
+    container_name: dash-app-dev
+    ports:
+      - "8050:8050"
+    volumes:
+      - .:/app          # 挂载代码目录
+    command: python app.py
+    environment:
+      - FLASK_ENV=development
+
+  # 生产模式（正式部署）
+  prod:
+    build: .
+    container_name: dash-app-prod
+    ports:
+      - "8050:8050"
+    restart: unless-stopped
+    command: gunicorn --bind 0.0.0.0:8050 --workers 2 app:server
