@@ -9,5 +9,5 @@
 docker-compose up dev
 
 # 生产模式
-docker-compose up -d prod
+docker-compose up -d --build prod
 

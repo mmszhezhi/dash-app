@@ -498,7 +498,7 @@ app.layout = html.Div(
                 'backgroundColor': THEMES['GitHub Dark']['card_bg'],
             },
             children=[
-                html.H1('🎨 fuck深色主sss题切换器xxxx', style={'color': THEMES['GitHub Dark']['font_color']}),
+                html.H1('🎨 sssssfuck深色主sss题切换器xxxx', style={'color': THEMES['GitHub Dark']['font_color']}),
                 html.P(f'共 {len(THEMES)} 个暗色系主题，点击下方按钮切换',
                        style={'marginBottom': '15px', 'color': THEMES['GitHub Dark']['font_color'],
                               'fontSize': '14px'}),
@@ -650,4 +650,4 @@ def switch_theme(click_list, current_theme):
 
 # ========== 运行应用 ==========
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8055)
+    app.run(debug=True, host='0.0.0.0', port=8050)
